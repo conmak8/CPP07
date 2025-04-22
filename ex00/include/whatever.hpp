@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 14:57:47 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/22 15:10:13 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/22 16:38:20 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <iostream>
 
-template <class T>
+template <class T> // can use also <typename T>
 void swap(T &a, T &b)
 {
 	T tmp = a;
