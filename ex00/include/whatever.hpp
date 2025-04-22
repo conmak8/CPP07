@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 14:57:47 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/22 15:02:50 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/22 15:10:13 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,11 @@ const T &min(const T &a, const T &b)
 {
 	return (a < b ? a : b);
 }
+
 template <class T>
 const T &max(const T &a, const T &b)
 {
 	return (a > b ? a : b);
 }
 
-#emdif // ! WHATEVER_HPP
+#endif // ! WHATEVER_HPP
