@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 18:39:35 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/22 18:47:29 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/22 18:54:51 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,9 @@ int main()
 	
 	std::cout << "Original string array:" << std::endl;
 	iter(strArray, 3, print);
+	
+	// std::cout << "Crazy staff:" << std::endl;
+	// iter(strArray, 3, square);
 	
 	return (0);
 }

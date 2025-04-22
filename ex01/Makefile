@@ -1,5 +1,5 @@
 # Project Name
-NAME		=	$(BIN_DIR)/template
+NAME		=	$(BIN_DIR)/iter
 # Command-line arguments for run and valgrind
 ARGS		=
 
