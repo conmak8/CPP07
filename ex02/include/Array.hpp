@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 19:07:31 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/25 11:07:14 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/26 10:41:48 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,11 @@ public:
 		Array(const Array &other);				// * Copy Constructor
 		Array &operator=(const Array &other)	// * Copy Assignment Operator
 		~Array();								// * Destructor
+
+		T &operator[](unsigned int index);		// * Subscript Operator
+		const T &operator[](unsigned int index) const; // * Const Subscript Operator
+
+		unsigned int size() const;				// * Size Getter
 };
 	
 

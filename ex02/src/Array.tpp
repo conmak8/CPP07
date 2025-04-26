@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 10:26:49 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/23 10:47:42 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/26 10:42:30 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,4 +49,28 @@ Array<T>::~Array()
 	delete[] _array;
 }
 
+template <class T>									 //Subscript Operator
+T &Array<T>::operator[](unsigned int index)
+{
+	if (index >= _size)
+	{
+		throw std::out_of_range("Index out of range");
+	}
+	return _array[index];
+}
 
+template <class T>
+const T &Array<T>::operator[](unsigned int index) const
+{
+	if (index >= _size)
+	{
+		throw std::out_of_range("Index out of range");
+	}
+	return _array[index];
+}
+
+template <class T>									 //Size Getter
+unsigned int Array<T>::size() const
+{
+	return _size;
+}
