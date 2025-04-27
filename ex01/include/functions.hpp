@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 18:37:38 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/22 18:45:31 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/27 19:29:25 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 # include <iostream>
 
-template <typename T>
 
+template <typename T>
 void print(T &value)
 {
 	std::cout << value << std::endl;
