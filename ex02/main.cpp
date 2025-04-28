@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/26 10:44:22 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/27 20:57:14 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/28 16:00:55 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,7 +119,8 @@ void testPointerArray()
 		ptrArr[i] = new int(i * 10);
 
 	for (unsigned int i = 0; i < ptrArr.size(); ++i)
-		std::cout << "ptrArr[" << i << "] points to value: " << *(ptrArr[i]) << std::endl;
+		std::cout << "ptrArr[" << i << "] points to value: " << *(ptrArr[i]) 
+								    << " with address " << ptrArr[i] << std::endl;
 
 	for (unsigned int i = 0; i < ptrArr.size(); ++i)
 		delete ptrArr[i];

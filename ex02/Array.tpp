@@ -6,11 +6,12 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 10:26:49 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/26 19:56:38 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/28 16:01:56 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Array.hpp"
+
 
 template <class T>									 //Constructor (default)
 Array<T>::Array() : _array(nullptr), _size(0) {}

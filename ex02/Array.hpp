@@ -6,7 +6,7 @@
 /*   By: cmakario <cmakario@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 19:07:31 by cmakario          #+#    #+#             */
-/*   Updated: 2025/04/26 11:05:31 by cmakario         ###   ########.fr       */
+/*   Updated: 2025/04/28 16:07:08 by cmakario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,6 @@ public:
 		unsigned int size() const;				// * Size Getter
 };
 
-#include "Array.tpp"
+#include "Array.tpp"  // ! SOS :  Tell me what it is, then tell me how it works. always include in the end!
 
 #endif // ! ARRAY_HPP
